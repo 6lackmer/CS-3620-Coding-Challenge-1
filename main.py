@@ -1,5 +1,3 @@
-
-
 def part1():
     print("Part 1:")
     print("-------")
@@ -12,6 +10,7 @@ def part1():
 
     print("Simple interest value:", simple_interest)
     print("\n\n")
+
 
 def part2():
     print("Part 2:")
@@ -31,6 +30,7 @@ def part2():
     print(favorite_food_items)
     print("\n\n")
 
+
 def part3():
     print("Part 3:")
     print("-------")
@@ -39,9 +39,10 @@ def part3():
         print("I am a programmer")
 
     print()
+
     def square():
-        for x in range(1,10):
-            print(pow(x,2))
+        for x in range(1, 10):
+            print(pow(x, 2))
 
     square()
 
